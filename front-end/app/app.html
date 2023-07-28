@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <script src="app.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="loanDisplay">Loan amount: <output id="value"></output>€</p></div>
+    <form method="post" class="form">
+      <input
+        id="loanAmount"
+        type="range"
+        name="loanAmount"
+        min="5000"
+        max="50000"
+        value="5000"
+        step="1000"
+      /><br />
+      <input type="submit" value="Calculate" class="addpostbtn" />
+    </form>
+    <div class="container">
+      <table id="myTable" class="table">
+        <thead>
+          <tr class="table-header">
+            <th class="header__item filter__link">Month</th>
+            <th class="header__item filter__link">Remaining credit amount</th>
+            <th class="header__item filter__link">Principal part</th>
+            <th class="header__item filter__link">Interest</th>
+            <th class="header__item filter__link">Total payment</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </body>
+</html>

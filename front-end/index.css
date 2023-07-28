@@ -1,0 +1,37 @@
+body {
+  background-color: #c3fff0;
+}
+
+.button {
+  font-size: 125%;
+  font-family: TTNormsPro, sans-serif;
+  border: 2px solid;
+  border-radius: 3rem;
+  color: #004056;
+  background-color: #ff9b55;
+  border: 2px solid #ff9b55;
+  min-height: 55px;
+  min-width: 175px;
+  /* font-family: monospace; */
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.button:hover {
+  background-color: #ff6e46;
+  border: 2px solid #ff6e46;
+  opacity: 1;
+}
+
+.slogan {
+  /* font-family: monospace; */
+  font-family: "IBM Plex Serif", serif;
+  font-size: 200%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+}
