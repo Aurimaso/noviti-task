@@ -162,7 +162,7 @@ function setItemsFromArrayToHTMLTable() {
   tableBody.remove();
   cycleNumber = 0;
   let tableElement = document.getElementById("myTable");
-  newTableBody = document.createElement("tbody");
+  let newTableBody = document.createElement("tbody");
   newTableBody.id = "tableBody";
   tableElement.appendChild(newTableBody);
 
